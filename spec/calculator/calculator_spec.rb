@@ -36,7 +36,7 @@ describe Calculator, "Sobre a Calculadora" do
 
     it 'divsion with negative numbers' do
       result = subject.div(-5.00, -2.00)
-      expect(result).to eq(-2.5)
+      expect(result).to eq(2.5)
     end
 
     it 'divide by 0' do
@@ -54,8 +54,8 @@ describe Calculator, "Sobre a Calculadora" do
     end
 
     it 'multiplication with negative numbers' do
-      result = subject.mult(-9.5, -2.3)
-      expect(result).to eq(21.85)
+      result = subject.mult(-9.5, -3.5)
+      expect(result).to eq(33.25)
     end
   end
 
